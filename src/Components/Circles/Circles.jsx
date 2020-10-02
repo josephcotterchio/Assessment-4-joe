@@ -3,12 +3,12 @@ import './Circles.css';
 
 const Circles = (props) => (
   <div className="Circles">
-    {props.circles.map((circles) => (
+    {props.circles.map((circle) => (
       <div
-        className={circles === props.circles.selected ? "selected" : ""}
-        key={circles}
+        className={circle === props.circleSelected ? "selected" : ""}
+        key={circle}
       >
-        {circles}
+        {circle}
       </div>
     ))}
   </div>

@@ -25,9 +25,8 @@ class App extends Component {
           />
           <Circles
             circles={circles}
-            handleCircleClick={this.handleCircleClick}
+            circleSelected={this.state.circleSelected}
           />
-
         </main>
       </div>
     );
