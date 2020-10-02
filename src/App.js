@@ -8,11 +8,15 @@ const circles = ['1', '2', '3', '4']
 class App extends Component {
   constructor() {
     super();
-    this.state = { circleSelected: "1" };
+    this.state = { circleSelected: '1' };
   }
   handleCircleClick = (circle) => {
     this.setState( {circleSelected: circle});
   };
+  handlecircleSelected = (circleSelected) => {
+    this.setState( {circleSelected: circleSelected})
+  };
+
   render() {
     return (
       <div className="App">
