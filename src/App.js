@@ -17,16 +17,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">UNIT 4 FINAL ASSESSMENT</header>
-        <main>
-          <Circles
-            circles={circles}
-            handleCircleClick={this.handleCircleClick}
-          />
-          <CircleSelector
+        <main>          
+        <CircleSelector
             circles={circles}
             circleSelected={this.state.circleSelected}
             handleCircleClick={this.handleCircleClick}
           />
+          <Circles
+            circles={circles}
+            handleCircleClick={this.handleCircleClick}
+          />
+
         </main>
       </div>
     );

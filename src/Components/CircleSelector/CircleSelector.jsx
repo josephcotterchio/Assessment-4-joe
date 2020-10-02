@@ -3,13 +3,13 @@ import "./CircleSelector.css";
 
 const CircleSelector = (props) => (
   <div className="CircleSelector">
-    {props.circleSelector.map((circles) => (
-      <div
-        className={circles === props.circleSelector.selected ? "selected" : ""}
+    {props.circles.map((circles) => (
+      <button className={circles === props.circleSelected ? "selected" : ""}
         key={circles}
+        onClick={() => props.handleCircleClick("selected")}
       >
-        {circles}
-      </div>
+        SELECT CIRCLE {circles}
+      </button>
     ))}
   </div>
 );
