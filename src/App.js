@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import "./App.css";
 import Circles from "./Components/Circles/Circles"
+import CircleSelector from "./Components/CircleSelector/CircleSelector";
 
 const circles = ['1', '2', '3', '4']
 
 class App extends Component {
-    constructor() {
+  constructor() {
     super();
-    this.state = { circleSelected: '1'};
+    this.state = { circleSelected: "1" };
   }
-
+  handleCircleClick = (circle) => {
+    this.setState( {circleSelected: circle});
+  };
   render() {
     return (
       <div className="App">
@@ -17,7 +20,12 @@ class App extends Component {
         <main>
           <Circles
             circles={circles}
-            handleButtonClick={this.handleButtonClick}
+            handleCircleClick={this.handleCircleClick}
+          />
+          <CircleSelector
+            circles={circles}
+            circleSelected={this.state.circleSelected}
+            handleCircleClick={this.handleCircleClick}
           />
         </main>
       </div>
