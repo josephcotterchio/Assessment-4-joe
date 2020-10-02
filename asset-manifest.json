@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Assessment-4-joe/static/css/main.ac0de4b8.chunk.css",
+    "main.js": "/Assessment-4-joe/static/js/main.10e5942a.chunk.js",
+    "main.js.map": "/Assessment-4-joe/static/js/main.10e5942a.chunk.js.map",
+    "runtime-main.js": "/Assessment-4-joe/static/js/runtime-main.f09b7172.js",
+    "runtime-main.js.map": "/Assessment-4-joe/static/js/runtime-main.f09b7172.js.map",
+    "static/js/2.5946832a.chunk.js": "/Assessment-4-joe/static/js/2.5946832a.chunk.js",
+    "static/js/2.5946832a.chunk.js.map": "/Assessment-4-joe/static/js/2.5946832a.chunk.js.map",
+    "index.html": "/Assessment-4-joe/index.html",
+    "precache-manifest.f044382c1b91a407b44a0c7705e1826d.js": "/Assessment-4-joe/precache-manifest.f044382c1b91a407b44a0c7705e1826d.js",
+    "service-worker.js": "/Assessment-4-joe/service-worker.js",
+    "static/css/main.ac0de4b8.chunk.css.map": "/Assessment-4-joe/static/css/main.ac0de4b8.chunk.css.map",
+    "static/js/2.5946832a.chunk.js.LICENSE.txt": "/Assessment-4-joe/static/js/2.5946832a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f09b7172.js",
+    "static/js/2.5946832a.chunk.js",
+    "static/css/main.ac0de4b8.chunk.css",
+    "static/js/main.10e5942a.chunk.js"
+  ]
+}
