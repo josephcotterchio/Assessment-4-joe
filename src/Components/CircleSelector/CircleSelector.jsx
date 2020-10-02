@@ -6,9 +6,9 @@ const CircleSelector = (props) => (
     {props.circles.map((circle) => (
       <button className={circle === props.circleSelected ? "selected" : ""}
         key={circle}
-        onClick={() => props.handleCircleClick("selected")}
+        onClick={() => props.handleCircleClick(circle)}
       >
-        SELECT CIRCLE {CircleSelector}
+        SELECT CIRCLE {circle}
       </button>
     ))}
   </div>
